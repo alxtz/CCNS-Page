@@ -1,0 +1,131 @@
+body
+    background-image: url('mac.jpg')
+    div.navBar
+        height: 75px
+        position: relative
+        background: linear-gradient(to right, rgba(10,10,10,0.9) , rgba(10,10,10,0.3))
+        div.logoBox
+            width: 550px
+            margin-left: 5%
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            display: flex
+            align-items: center
+            div.circleBg
+                display: inline-block
+                background-color: #f05f40
+                padding: 10px
+                border-radius: 50px
+                i
+                    color: white
+                    font-size: 25px
+            p.logoText
+                display: inline-block
+                color: white
+                font-family: "Courier"
+                font-size: 50px
+                margin-bottom: 0
+                line-height: 40px
+                padding-left: 15px
+                letter-spacing: 2px
+            p.logoIntroText
+                display: inline-block
+                color: #bbbbbb
+                padding-top: 30px
+                padding-left: 10px
+                font-size: 18px
+        div.linkButton
+            float: right
+            position: relative
+            top: 30%
+            a
+                color: #aaaaaa
+                font-size: 18px
+                padding: 10px 20px
+                text-decoration: none
+                margin: 0 10px
+                border-radius: 5px
+                background-color: rgba(0,0,0,0.5)
+                box-shadow: 0 3px 0 0 grey
+            a:hover
+                color: white
+                font-size: 18px
+                background-color: rgba(0,0,0,1)
+            a:active
+                box-shadow: none
+        div.linkButton:active
+            margin-top: 3px
+            margin-bottom: -3px
+        div.linkRed
+            a
+                color: #eeeeee
+                background-color: rgba(200,0,0,0.8)
+            a:hover
+                color: white
+                font-size: 18px
+                background-color: rgba(255,0,0,1)
+        div.linkGreen
+            a
+                color: #eeeeee
+                background-color: rgba(0,200,0,0.8)
+            a:hover
+                color: white
+                font-size: 18px
+                background-color: rgba(0,230,50,1)
+    div.headerBar
+        height: 1000px
+        padding-top: 75px
+        border-top: 2px solid grey
+        div.lineBox
+            width: 90%
+            margin-left: 5%
+            position: relative
+            height: 75px
+            div.pinkLine
+                position: absolute
+                top: 50%
+                height: 3px
+                background-color: #f05f40
+                width: 100%
+            div.hackerProfileText
+                color: white
+                font-size: 50px
+                font-family: "PT Serif"
+                width: 390px
+                text-align: center
+                background-color: rgba(25,25,25,0.9)
+                position: relative
+                z-index: 1
+                margin: 0 auto
+                letter-spacing: 2px
+        div.headsBox
+            width: 90%
+            margin-left: 5%
+            margin-top: 50px
+            display: flex
+            justify-content: space-between
+            div.hackerBox
+                width: 21.5vw
+                background-color: rgba(20,20,20,0.8)
+                padding: 10px
+                box-shadow: 2px 2px 2px rgba(0,0,0,0.5)
+                img.eachHacker
+                    width: 100%
+                    border-radius: 200px
+                    border: 7.5px solid #565656
+                p.hackerName
+                    font-family: Courier
+                    font-size: 35px
+                    color: #dddddd
+                    text-align: center
+                    margin-bottom: 0
+                p.hackerTitle
+                    font-size: 20px
+                    color: #f05f40
+                    text-align: center
+                    letter-spacing: 1px
+                p.hackerIntro
+                    font-size: 20px
+                    text-align: center
+                    color: #999999
