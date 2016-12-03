@@ -1,0 +1,248 @@
+body {
+	height: 100vh;
+	background-image: url("../images/mac.jpg");
+}
+
+body header {
+	height: 7.5%;
+	background: linear-gradient(to right, rgba(255, 255, 255, 0.901961), rgba(10, 10, 10, 0.298039));
+	border-bottom: 3px solid rgba(100, 100, 100, 0.2);
+}
+
+body header div.col-md-6 {
+	height: 100%;
+}
+
+body header div.header-left {
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+
+body header div.header-left div.logoIconBox {
+	display: inline-block;
+	margin-left: 3.5vw;
+	padding: 0.9vh;
+	background-color: #3a559e;
+	border-radius: 500px;
+}
+
+body header div.header-left div.logoIconBox i {
+	color: white;
+	font-size: 2.35vh;
+}
+
+body header div.header-left p.logoText {
+	margin-bottom: 0;
+	font-family: Courier;
+	font-size: 4.75vh;
+	margin-left: 0.75vw;
+	letter-spacing: 1px;
+}
+
+body header div.header-left p.logoIntro {
+	font-size: 1.75vh;
+	padding-top: 2.5vh;
+	margin-left: 0.5vw;
+	font-style: italic;
+	color: grey;
+	letter-spacing: 0.5px;
+}
+
+body section {
+	height: 92.5%;
+}
+
+body section p.joinText {
+	font-size: 6.5vh;
+	color: white;
+	font-family: "PT Serif Bold";
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 2px;
+	text-shadow: rgba(0, 0, 0, 0.498039) 4px 4px;
+	padding-top: 5vh;
+	margin-bottom: 0;
+	padding-bottom: 7.5vh;
+}
+
+body section div.stepsBlock {
+	display: flex;
+	justify-content: space-around;
+	padding: 0 3.5vw;
+}
+
+body section div.stepsBlock div.stepCard {
+	width: 25vw;
+	background-color: rgba(255, 255, 255, 0.95);
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.498039) 4px 4px 3px;
+	padding-bottom: 3vh;
+}
+
+body section div.stepsBlock div.stepCard p.stepText {
+	font-family: "PT Serif Bold";
+	font-size: 5.5vh;
+	text-align: center;
+	padding-top: 2.25vh;
+	padding-bottom: 1.75vh;
+	margin-bottom: 0;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #252525;
+}
+
+body section div.stepsBlock div.stepCard div.stepBackground1 {
+	border: 0px solid red;
+	width: 22vw;
+	height: 22vw;
+	margin: 0 auto;
+	background: url("../images/step1.png");
+	background-size: 22vw 22vw;
+	border-radius: 100%;
+	margin-bottom: 3.5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body section div.stepsBlock div.stepCard div.stepBackground1 div.buttonBox {
+	width: 15vw;
+	margin: 0 auto;
+}
+
+body section div.stepsBlock div.stepCard div.stepBackground1 div.buttonBox a {
+	font-family: "Chinese Black";
+	border-radius: 5px;
+	display: block;
+	padding: 0;
+	text-decoration: none;
+	color: white;
+	background-color: red;
+	width: 15vw;
+	font-size: 2.75vh;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0.5vh 0;
+	box-shadow: #222222 0px 4px 4px 0px;
+}
+
+body section div.stepsBlock div.stepCard div.stepBackground1 div.buttonBox a i {
+	margin: 0;
+}
+
+body section div.stepsBlock div.stepCard div.stepBackground1 div.buttonBox a:active {
+	box-shadow: none;
+	margin-top: 3px;
+}
+
+body section div.stepsBlock div.stepCard div.stepBackground1:hover div a {
+	box-shadow: rgba(0, 0, 0, 0.9) -1px 0px 10px 5px;
+}
+
+body section div.stepsBlock div.stepCard div.stepBackground2 {
+	border: 0px solid red;
+	width: 21vw;
+	height: 21vw;
+	margin: 0 auto;
+	background: url("../images/step2.jpg");
+	background-size: 21vw 21vw;
+	border-radius: 100%;
+	margin-top: 0.75vw;
+	margin-bottom: 4vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body section div.stepsBlock div.stepCard div.stepBackground2 div.buttonBox {
+	width: 15vw;
+	margin: 0 auto;
+}
+
+body section div.stepsBlock div.stepCard div.stepBackground2 div.buttonBox a {
+	font-family: "Chinese Black";
+	border-radius: 5px;
+	display: block;
+	padding: 0;
+	text-decoration: none;
+	color: white;
+	background-color: green;
+	width: 15vw;
+	font-size: 2.75vh;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0.5vh 0;
+	box-shadow: black 0px 4px 4px 0px;
+}
+
+body section div.stepsBlock div.stepCard div.stepBackground2 div.buttonBox a i {
+	margin: 0;
+}
+
+body section div.stepsBlock div.stepCard div.stepBackground2 div.buttonBox a:active {
+	box-shadow: none;
+	margin-top: 3px;
+}
+
+body section div.stepsBlock div.stepCard div.stepBackground2:hover div a {
+	box-shadow: rgba(0, 0, 0, 0.95) -1px 0px 10px 5px;
+}
+
+body section div.stepsBlock div.stepCard div.stepBackground3 {
+	border: 0px solid red;
+	width: 21vw;
+	height: 21vw;
+	margin: 0 auto;
+	background: url("../images/step3.jpg");
+	background-size: 21vw 21vw;
+	border-radius: 100%;
+	margin-top: 0.75vw;
+	margin-bottom: 4vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body section div.stepsBlock div.stepCard div.stepBackground3 div.buttonBox {
+	width: 15vw;
+	margin: 0 auto;
+}
+
+body section div.stepsBlock div.stepCard div.stepBackground3 div.buttonBox a {
+	font-family: "Chinese Black";
+	border-radius: 5px;
+	display: block;
+	padding: 0;
+	text-decoration: none;
+	color: white;
+	background-color: #4444aa;
+	width: 15vw;
+	font-size: 2.75vh;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0.5vh 0;
+	box-shadow: #c8c8c8 0px 4px 4px 0px;
+}
+
+body section div.stepsBlock div.stepCard div.stepBackground3 div.buttonBox a i {
+	margin: 0;
+}
+
+body section div.stepsBlock div.stepCard div.stepBackground3 div.buttonBox a:active {
+	box-shadow: none;
+	margin-top: 3px;
+}
+
+body section div.stepsBlock div.stepCard div.stepBackground3:hover div a {
+	box-shadow: rgba(255, 255, 255, 0.9) -1px 0px 10px 5px;
+}
+
+body section div.stepsBlock div.stepCard p.stepIntro {
+	font-family: "Chinese Black";
+	font-size: 2vh;
+	margin-bottom: 0;
+	text-align: center;
+	margin-bottom: 1vh;
+	color: #666666;
+}

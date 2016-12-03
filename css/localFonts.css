@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'PT Serif Normal';
+    src:  url('../localFonts/PTF55F.ttf') format('woff2');
+}
+
+@font-face {
+    font-family: 'PT Serif Bold';
+    src:  url('../localFonts/PTF75F.ttf') format('woff2');
+}
+
+@font-face {
+    font-family: 'Chinese Black';
+    src:  url('../localFonts/NotoSansCJK.otf') format('woff2');
+}

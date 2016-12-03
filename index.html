@@ -1,78 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to Firebase Hosting</title>
+    <style media="screen">
+      body {
+        font-family: Roboto, Arial, sans-serif;
+        background: #ECEFF1;
+        color: rgba(0,0,0,0.87);
+      }
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>CCNS - Fantastic Hackers and Where to Find Them</title>
-        <link rel="stylesheet" href="localFonts.css">
-        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
+      a {
+        color: rgb(3,155,229);
+      }
 
-    <body>
+      #message {
+        max-width: 400px;
+        margin: 40px auto;
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2),0 1px 1px 0 rgba(0,0,0,0.14),0 2px 1px -1px rgba(0,0,0,0.12);
+        border-radius: 2px;
+        background: white;
+        padding: 16px 24px;
+      }
 
-        <div class="navBar">
-            <div class="logoBox">
-                <div class="circleBg">
-                    <i class="fa fa-coffee" aria-hidden="true"></i>
-                </div>
-                <p class="logoText">CCNS</p>
-                <p class="logoIntroText">黑客與他們的產地</p>
-            </div>
-            <div class="linkButton">
-                <a href="#"><i class="fa fa-cog" aria-hidden="true"></i> 關於我們</a>
-            </div>
-            <div class="linkButton linkGreen">
-                <a href="#"><i class="fa fa-envira" aria-hidden="true"></i> 開坑</a>
-            </div>
-            <div class="linkButton linkRed">
-                <a href="#"><i class="fa fa-users" aria-hidden="true"></i> 參加活動</a>
-            </div>
-        </div>
+      #message h1 {
+        font-size: 22px;
+        font-weight: 500;
+        text-align: center;
+        margin: 0 0 16px;
+      }
 
-        <div class="headerBar">
-            <div class="lineBox">
-                <div class="pinkLine"></div>
-                <div class="hackerProfileText">Hacker Profiles</div>
-            </div>
-            <div class="headsBox">
-                <div class="hackerBox">
-                    <img src="hacker1.jpg" alt="" class="eachHacker">
-                    <p class="hackerName">Daniel C.</p>
-                    <p class="hackerTitle">Fullstack Master</p>
-                    <p class="hackerIntro">全端精通，樣樣都幹。</p>
-                    <p class="hackerIntro">Golang、會計學想學就學。</p>
-                </div>
-                <div class="hackerBox">
-                    <img src="hacker2.jpg" alt="" class="eachHacker">
-                    <p class="hackerName">Jay</p>
-                    <p class="hackerTitle">Robo Master</p>
-                    <p class="hackerIntro">從無到有自幹3D列印機。</p>
-                    <p class="hackerIntro">自行組裝人形機器人。</p>
-                </div>
-                <div class="hackerBox">
-                    <img src="hacker0.jpg" alt="" class="eachHacker">
-                    <p class="hackerName">Fang</p>
-                    <p class="hackerTitle">Conflict Master</p>
-                    <p class="hackerIntro">搞垮成大學生會、社聯會。</p>
-                    <p class="hackerIntro">被退學，轉去台大。</p>
-                </div>
-                <div class="hackerBox">
-                    <img src="hacker3.jpg" alt="" class="eachHacker">
-                    <p class="hackerName">Alex</p>
-                    <p class="hackerTitle">Fuck Up Master</p>
-                    <p class="hackerIntro">從無到有休學。</p>
-                    <p class="hackerIntro">搭客運高手。</p>
-                </div>
-            </div>
-        </div>
+      #message p {
+        font-weight: 300;
+        line-height: 150%;
+      }
 
-        <script src="jquery-3.1.1/jquery-3.1.1.min.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
+      #message ul {
+        list-style: none;
+        margin: 16px 0 0;
+        padding: 0;
+        text-align: center;
+      }
 
-    </body>
-
+      #message li a {
+        display: inline-block;
+        padding: 8px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 500;
+        background: rgb(3,155,229);
+        color: white;
+        border: 1px solid rgb(3,155,229);
+        border-radius: 3px;
+        font-size: 14px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="message">
+      <h1>Welcome to Firebase Hosting</h1>
+      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
+      <ul>
+        <li><a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a></li>
+      </ul>
+    </div>
+  </body>
 </html>
